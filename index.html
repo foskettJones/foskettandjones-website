@@ -3,28 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Foskett & Jones</title>
+  <title>Foskett & Jones | Building & Electrical Specialists</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <header>
-    <h1>Foskett & Jones</h1>
-    <p>Modern Building & Electrical Services</p>
+    <div class="container">
+      <h1 class="logo">Foskett & Jones</h1>
+      <nav>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="how-we-work.html">How We Work</a></li>
+          <li><a href="what-we-do.html">What We Do</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="services">
-      <h2>Our Services</h2>
-      <ul>
-        <li>General Building</li>
-        <li>Electrical Installations</li>
-        <li>Refurbishments</li>
-      </ul>
-    </section>
-  </main>
+  <section class="hero">
+    <div class="container">
+      <h2>Reliable. Professional. Experienced.</h2>
+      <p>Specialists in Building, Electrical, Garden Rooms & More</p>
+      <a href="contact.html" class="btn">Request a Quote</a>
+    </div>
+  </section>
+
+  <section class="services-preview">
+    <div class="container">
+      <h3>What We Do</h3>
+      <div class="grid">
+        <a href="what-we-do.html"><div class="service-box">General Building</div></a>
+        <a href="what-we-do.html"><div class="service-box">Electrical</div></a>
+        <a href="what-we-do.html"><div class="service-box">Plumbing</div></a>
+        <a href="what-we-do.html"><div class="service-box">Refurbishments</div></a>
+        <a href="what-we-do.html"><div class="service-box">Garden Rooms</div></a>
+        <a href="what-we-do.html"><div class="service-box">Landscaping</div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h3>Why Choose Us</h3>
+      <p>Foskett & Jones is a family-run business offering a full range of building and trade services with care, craftsmanship, and clear communication every step of the way.</p>
+    </div>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Foskett & Jones</p>
+    <div class="container">
+      <p>&copy; 2025 Foskett & Jones. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
